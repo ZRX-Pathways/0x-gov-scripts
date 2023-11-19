@@ -1,0 +1,21 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+.DS_Store
+.idea
+
+# Hardhat files
+cache
+artifacts
+
+# typechain generated code
+contract-libs
+
+*.xml
+*.iml
+
+*.txt

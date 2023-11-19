@@ -1,0 +1,14 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "typechain": "typechain --target ethers-v5 --out-dir contract-libs 'contract-abis/**/*.json'"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@typechain/ethers-v5": "^10.2.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.12.6",
+    "typechain": "^8.1.1",
+    "@arbitrum/sdk": "^3.1.13"
+  }
+}
