@@ -1,6 +1,6 @@
-import TokenEscrowAbi from "../../contract-abis/llama-pay/TokenEscrow.json";
+import TokenEscrowAbi from "../../../contract-abis/llama-pay/TokenEscrow.json";
 import {ethers} from "hardhat";
-import {TokenEscrow} from "../../contract-libs";
+import {TokenEscrow} from "../../../contract-libs";
 import {BigNumber} from "ethers";
 
 export async function encodeCreatePay(

@@ -1,6 +1,6 @@
 import { ethers } from "hardhat";
-import ZrxTreasuryAbi from "../../contract-abis/zrx-protocol/ZrxTreasury.json";
-import {ZrxTreasury} from "../../contract-libs";
+import ZrxTreasuryAbi from "../../../contract-abis/zrx-protocol/ZrxTreasury.json";
+import {ZrxTreasury} from "../../../contract-libs";
 
 export async function executeProposal(treasuryAddress: string, proposalCreationTxHash: string) {
   const treasury = <ZrxTreasury>await ethers.getContractAt(ZrxTreasuryAbi, treasuryAddress);

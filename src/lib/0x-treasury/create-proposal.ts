@@ -1,8 +1,8 @@
 import { ethers } from "hardhat";
-import ZrxTreasuryAbi from "../../contract-abis/zrx-protocol/ZrxTreasury.json";
-import StakingProxyAbi from "../../contract-abis/zrx-protocol/StakingProxy.json";
-import {ZrxTreasury, StakingProxy} from "../../contract-libs";
-import {IZrxTreasury} from "../../contract-libs/zrx-protocol/ZrxTreasury";}
+import ZrxTreasuryAbi from "../../../contract-abis/zrx-protocol/ZrxTreasury.json";
+import StakingProxyAbi from "../../../contract-abis/zrx-protocol/StakingProxy.json";
+import {ZrxTreasury, StakingProxy} from "../../../contract-libs";
+import {IZrxTreasury} from "../../../contract-libs/zrx-protocol/ZrxTreasury";
 
 export async function encodeProposal(
   treasuryAddress: string, 

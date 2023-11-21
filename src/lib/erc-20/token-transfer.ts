@@ -1,6 +1,6 @@
-import Erc20Abi from "../../contract-abis/Erc20.json";
+import Erc20Abi from "../../../contract-abis/Erc20.json";
 import {ethers} from "hardhat";
-import {Erc20} from "../../contract-libs";
+import {Erc20} from "../../../contract-libs";
 import {BigNumber} from "ethers";
 
 export async function tokenTransfer(tokenAddress: string, amount: BigNumber, receiverAddress: string): Promise<string> {
