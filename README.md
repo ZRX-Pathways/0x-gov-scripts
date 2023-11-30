@@ -10,3 +10,7 @@ run the following commands in order
 npm ci
 npm run typechain
 ```
+
+## Links
+
+for Arbitrum tickets, after execution check the status of the ticket [here](https://retryable-tx-panel.arbitrum.io/) using the txHash from ethereum mainnet
