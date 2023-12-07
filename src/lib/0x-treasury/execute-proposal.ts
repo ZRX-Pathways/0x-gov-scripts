@@ -21,5 +21,5 @@ export async function executeProposal(treasuryAddress: string, proposalCreationT
   }
 
   const tx = await treasury.execute(proposalId, actions, { value });
-  await tx.wait();
+  return await tx.wait();
 }
